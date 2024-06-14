@@ -1,5 +1,6 @@
 import React from 'react'
 import Profile from './Profile'
+import Directors from './Directors'
 
 function Home() {
     return (
@@ -60,6 +61,7 @@ function Home() {
                 </div>
                
             </div>
+            <Directors/>
         </div>
     )
 }
